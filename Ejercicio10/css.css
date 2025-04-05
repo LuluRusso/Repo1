@@ -1,0 +1,25 @@
+td{
+    color:blue;
+    border: 1px solid black;
+    padding: 8px 4px; /* el primero es para el vertical y el segundo es p el horizontal*/
+}
+table{
+    border-collapse: collapse;
+
+}
+th{
+    width: 170px;
+    font-size: 17px;
+}
+caption{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold ;
+}
+#end{
+    text-align: center;
+}
+#red{
+    background-color: red;
+    color:white;
+}
