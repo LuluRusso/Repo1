@@ -1,0 +1,28 @@
+header{
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 25px;
+    
+
+    margin: 0px;
+}
+body{
+    background: rgb(241, 169, 143);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.form{
+    position: relative;
+    top:20px;
+    left: 20px;
+    border-radius: 20Px;
+    background: rgb(221, 139, 109);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
