@@ -10,15 +10,25 @@
     <header>
         <h1>Formulario de contacto</h1>
     </header>
-    <div class="form" method="GET">
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido">
+    <div class="form" >
+        <form method="GET">
+            <label for="nombre" >Nombre:</label>
+            <input type="text" id="nombre"name="Nombre">
+            <label for="apellido" >Apellido:</label>
+            <input type="text" id="apellido" name="Apellido">
             <label>Sexo:</label>
-            <input type="radio" id="masculino">
+            <input type="radio" id="masculino" name="sexo" value="Hombre">
             <label for="masculino">Hombre</label>
+            <input type="radio" id="femenino" name="sexo" value="Mujer">
+            <label for="femenino">Mujer</label>
+            <label for="email" >Email:</label>
+            <input type="text" id="email" name="Email"><br>
+            <input type="checkbox" id="datos" name="Datos1"value="Si">
+            <label for="datos">Deseo recibir sobre novedades y ofertas</label><br>
+            <input type="checkbox" id="datos" name="Datos2" value="Si">
+            <label for="datos">Declaro haber leido y aceptado las condiciones generales del programa y la normativa sobre protección de datos.</label><br>
+            <input class="al-medio" type="submit" id="subir" >
+
         </form>
     </div>
 </body>
