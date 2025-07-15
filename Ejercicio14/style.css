@@ -1,0 +1,61 @@
+body {
+font-family:
+background-color:
+}
+.slider-container {
+width:
+margin:
+}
+.slider-container .slider-viewport {
+width:
+border-radius:
+display:
+overflow-x:
+scroll-snap-type:
+scroll-behavior:
+-webkit-overflow-scrolling:
+}
+.slider-container .slide {
+min-width:
+height:
+scroll-snap-align:
+border-radius:
+box-sizing:
+display:
+align-items:
+justify-content:
+font-size:
+}
+.slider-container .slide:nth-child(1) {
+
+background-color:
+}
+.slider-container .slide:nth-child(2) {
+background-color:
+}
+.slider-container .slide:nth-child(3) {
+background-color:
+}
+.slider-container .slide:nth-child(4) {
+background-color:
+}
+.slider-container .links {
+padding:
+display:
+justify-content:
+gap:
+}
+.slider-container .links a {
+width:
+height:
+background-color:
+border-radius:
+display:
+align-items:
+justify-content:
+color:
+text-decoration:
+}
+.slider-container .links a:hover {
+background-color:
+}
