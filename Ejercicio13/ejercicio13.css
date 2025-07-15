@@ -1,0 +1,59 @@
+   #ejercicioUno { 
+    display:block;
+    text-align: center;  } 
+    
+#ejercicioDos{
+    border:0px solid;
+    margin-top: 180px;
+}
+#ejercicioTres{
+    width: 400px; 
+    height: 300px; 
+    position: absolute;
+    top: 100px;
+    left: 200px
+}
+#ejercicioCuatro{
+    position: fixed;
+    top:0px;
+    z-index: 999;
+
+}
+#ejercicioCinco{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse; 
+}
+#logoIMDF{
+    height: 100px;
+    width: auto;
+}
+/*
+#ejercicioSiete {
+    justify-content: center; }*/
+.elementos { 
+    width: 120px; 
+    height: 120px; 
+    display: flex; 
+    background-color: white; 
+   } 
+
+#elementoUno { 
+    margin-top:  30px;
+    order:1;
+    margin-left: 50px
+   } 
+   #elementoDos { 
+    align-self:center;
+   } 
+   #elementoTres { 
+    align-self: flex-end;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-left: 40px;
+   
+   } 
+   #elementoCuatro { 
+    order:-1;
+   } 
