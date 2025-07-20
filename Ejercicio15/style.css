@@ -1,0 +1,89 @@
+h1{
+    color: rgb(255, 191, 191);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+body{
+    background-color:rgb(250, 237, 249) ;
+    border: 10px solid rgba(255, 191, 191, 0.836) ;
+    border-radius: 50px;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    ;
+ 
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-self: center;
+    align-self:center;
+    width:auto;
+    border: 3px groove;
+    border-radius: 10%;
+    background-color:rgb(212, 169, 252) ;
+}
+#display{
+    display:flex;
+    text-align: right;
+    width: 200px; 
+    height: 50px;
+    justify-self: center;
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(67, 73, 90);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}   
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin:4px;
+    margin-bottom: 10px;
+    width:auto;
+    border: 1.5px solid rgb(186, 141, 228) ;
+    border-radius: 10%;
+    background-color:rgb(203, 157, 247) ;
+}
+
+#container button{
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    margin:3px;
+    font-size: large;
+    color: rgb(32, 32, 32);
+}
+.one{
+    background-color: rgb(255, 255, 201);
+    border-color: rgb(237, 239, 151);
+}
+.two{
+    background-color: rgb(162, 255, 182);
+    border-color: rgb(113, 232, 125);
+}
+.three{
+    background-color: rgb(255, 162, 239);
+    border-color: rgb(248, 165, 226);
+}
+.four{
+    background-color: rgb(255, 193, 193);
+    border-color: rgb(255, 173, 173);
+}
+.operator{
+    background-color: rgb(162, 230, 255);
+    border-color: rgb(165, 248, 247);
+}
+.equal{
+    background-color: rgb(246, 106, 106);
+    border-color: rgb(210, 115, 115);
+}
+
+
+
+

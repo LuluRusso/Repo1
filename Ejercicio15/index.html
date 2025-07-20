@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicio 15</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div id="container">
+        
+        <input type="text" id="display" disabled />
+        <table id="buttons">
+            <tr>
+                <td><button class="one" onclick="press('7')">7</button></td>
+                <td><button class="one" onclick="press('8')">8</button></td>
+                <td><button class="one" onclick="press('9')">9</button></td>
+                <td><button class="operator" onclick="operation('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="two" onclick="press('4')">4</button></td>
+                <td><button class="two" onclick="press('5')">5</button></td>
+                <td><button class="two" onclick="press('6')">6</button></td>
+                <td><button class="operator" onclick="operation('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="three" onclick="press('1')">1</button></td>
+                <td><button class="three" onclick="press('2')">2</button></td>
+                <td><button class="three" onclick="press('3')">3</button></td>
+                <td><button class="operator" onclick="operation('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="four" onclick="press('0')">0</button></td>
+                <td><button class="four" onclick="clean()">C</button></td>
+                <td><button class="equal" onclick="calculate()">=</button></td>
+                <td><button class="operator" onclick="operation('+')">+</button></td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
